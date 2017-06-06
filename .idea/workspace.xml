@@ -75,8 +75,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="RailsProjectView" />
       <pane id="ProjectPane">
         <subPane>
@@ -435,12 +435,13 @@
       <workItem from="1496190818514" duration="2619000" />
       <workItem from="1496614075314" duration="151000" />
       <workItem from="1496713480890" duration="418000" />
-      <workItem from="1496768286522" duration="65000" />
+      <workItem from="1496768286522" duration="197000" />
+      <workItem from="1496768490783" duration="51000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3253000" />
+    <option name="totallyTimeSpent" value="3436000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1296" height="776" extended-state="6" />
