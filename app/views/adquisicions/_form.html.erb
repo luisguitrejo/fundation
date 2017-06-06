@@ -1,0 +1,32 @@
+<%= form_for(adquisicion) do |f| %>
+  <% if adquisicion.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(adquisicion.errors.count, "error") %> prohibited this adquisicion from being saved:</h2>
+
+      <ul>
+      <% adquisicion.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :fecha_compra %>
+    <%= f.date_select :fecha_compra %>
+  </div>
+
+  <div class="field">
+    <%= f.label :monto %>
+    <%= f.text_field :monto %>
+  </div>
+
+  <div class="field">
+    <%= f.label :cliente %>
+    <%= f.text_area :cliente %>
+  </div>
+
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

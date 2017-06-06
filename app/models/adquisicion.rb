@@ -1,0 +1,2 @@
+class Adquisicion < ApplicationRecord
+end
